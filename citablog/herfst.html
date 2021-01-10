@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="w3-light-grey">
+
+
+<!-- Links (sit on top) --><!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Abonneer je om op de hoogte te blijven van updates en meer...</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Vul je E-mail in"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+<div class="w5-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s2">
+      <a href="index.html" class="w3-button w3-block w3-black">HOMEPAGE</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="winter.html" class="w3-button w3-block w3-black">WINTER</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="lente.html" class="w3-button w3-block w3-black">LENTE</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="zomer.html" class="w3-button w3-block w3-black">ZOMER</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="herfst.html" class="w3-button w3-block w3-black">HERFST</a>
+    </div>
+  </div>
+</div>
+<list> </list>
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">HERFST 2020</span></h5>
+    <p>De laatste blog pagina alweer :(( Van de herfst en de gedeeltelijke winter van 2020.
+      Over corona gesproken was het nog steeds soepel en kon je alles doen tot 14 oktober,
+      dat was de laatste dag dat de restaurants open waren. Voor de rest bleef wel alles open en kon je nog steeds leuke dingen doen,
+      wat ik ook zeker deed met vrienden. Ook was ik toen al een half jaar met mijn vriend samen, de tijd ging echt super snel.</p>
+    <p> Op 14 november heb ik me laten testen op corona omdat ik heel verkouden was en
+      het wel zo handig was omdat op school steeds meer mensen besmet waren geraakt. Twee dagen later hoorde ik dat ik positief getest was,
+      echt heel vervelend, ik heb die tijd alleen maar in quaranaine gezeten op mijn kamer en veel gefacetimed. </p>
+    <p> In december heb ik een beetje Sinterklaas gevierd. Ook was ik jarig op 22 december, ik werd 17 jaar.
+      Net voor mijn verjaardag werden de corona regels weer aangescherpt dus ik kon geen groot feest geven, wel heb ik het in het klein met vriendinnen kunnen vieren.
+      Ik had een leuke dag gehad! Daarna kwam alweer kerst en heb ik kerstavond thuis gevierd, eerste kerstdag bij mijn vriend en tweede kerstdag bij een goede vriendin. En in no time was het alweer het einde van het jaar,
+      ik heb dat samen met vrienden gevierd, het was heeel gezellig. En ik ben heel dankbaar voor dit mooie jaar ookal liep het wat anders dan normaal,
+      ik heb er nog steeds van genoten en een top jaar kunnen hebben met lieve vriendinnen en mijn vriend om me heen. Dit was mijn 2020!</p>
+	  <list/> 
+	  
+    <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+      <div class="w3-third"><img src="images/cefbf026-85e4-4608-8dec-61ebd5d29ede.jpg" height="163" style="width:100%"> <img src="images/IMG_2899.jpg" style="width:100%"></div>
+      <div class="w3-third"><img src="images/IMG_2900.jpg" style="width:100%"> <img src="images/IMG_2897.jpg" style="width:100%"></div>
+      <div class="w3-third"><img src="images/IMG_2901.jpg" height="162" style="width:100%"> <img src="images/IMG_2712.JPG" height="359" style="width:100%"></div>
+    </div>
+</html>
+	<div class="w3-bar w3-black"> 
